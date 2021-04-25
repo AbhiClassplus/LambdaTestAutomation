@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="16" total="28" passed="12">
+  <reporter-output>
+  </reporter-output>
+  <suite name="LambaTestSuite" duration-ms="188611" started-at="2021-04-25T22:01:11 IST" finished-at="2021-04-25T22:04:20 IST">
+    <groups>
+    </groups>
+    <test name="EdgeTest" duration-ms="55349" started-at="2021-04-25T22:01:11 IST" finished-at="2021-04-25T22:02:06 IST">
+      <class name="com.qa.tests.HomePageTest">
+        <test-method status="PASS" signature="initialization(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.HomePageTest@6121c9d6]" name="initialization" is-config="true" duration-ms="30970" started-at="2021-04-25T22:01:11 IST" finished-at="2021-04-25T22:01:42 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MicrosoftEdge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[87.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows 10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.HomePageTest@6121c9d6]" name="beforeMethod" is-config="true" duration-ms="58" started-at="2021-04-25T22:01:42 IST" finished-at="2021-04-25T22:01:42 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.tests.HomePageTest.valdiateStartTestingBtnOnHomePage() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="valdiateStartTestingBtnOnHomePage()[pri:0, instance:com.qa.tests.HomePageTest@6121c9d6]" name="valdiateStartTestingBtnOnHomePage" duration-ms="1187" started-at="2021-04-25T22:01:42 IST" finished-at="2021-04-25T22:01:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- valdiateStartTestingBtnOnHomePage -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.HomePageTest@6121c9d6]" name="afterMethod" is-config="true" duration-ms="1" started-at="2021-04-25T22:01:43 IST" finished-at="2021-04-25T22:01:43 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.tests.HomePageTest.valdiateStartTestingBtnOnHomePage() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.HomePageTest@6121c9d6]" name="tearDown" is-config="true" duration-ms="559" started-at="2021-04-25T22:02:06 IST" finished-at="2021-04-25T22:02:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.tests.HomePageTest -->
+      <class name="com.qa.tests.NewsletterPageTest">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.NewsletterPageTest@4eb7f003]" name="beforeMethod" is-config="true" duration-ms="11" started-at="2021-04-25T22:01:59 IST" finished-at="2021-04-25T22:02:00 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.tests.NewsletterPageTest.validateLetMeReadItFirstLink() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="validateLetMeReadItFirstLink()[pri:0, instance:com.qa.tests.NewsletterPageTest@4eb7f003]" name="validateLetMeReadItFirstLink" duration-ms="6379" started-at="2021-04-25T22:02:00 IST" finished-at="2021-04-25T22:02:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLetMeReadItFirstLink -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.NewsletterPageTest@4eb7f003]" name="afterMethod" is-config="true" duration-ms="1" started-at="2021-04-25T22:02:06 IST" finished-at="2021-04-25T22:02:06 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.tests.NewsletterPageTest.validateLetMeReadItFirstLink() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.qa.tests.NewsletterPageTest -->
+      <class name="com.qa.tests.SupportDocPageTest">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.SupportDocPageTest@87f383f]" name="beforeMethod" is-config="true" duration-ms="4" started-at="2021-04-25T22:01:43 IST" finished-at="2021-04-25T22:01:43 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.tests.SupportDocPageTest.validateIntegrationDocUrl() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="validateIntegrationDocUrl()[pri:0, instance:com.qa.tests.SupportDocPageTest@87f383f]" name="validateIntegrationDocUrl" duration-ms="16060" started-at="2021-04-25T22:01:43 IST" finished-at="2021-04-25T22:01:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateIntegrationDocUrl -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.SupportDocPageTest@87f383f]" name="afterMethod" is-config="true" duration-ms="1" started-at="2021-04-25T22:01:59 IST" finished-at="2021-04-25T22:01:59 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.tests.SupportDocPageTest.validateIntegrationDocUrl() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.qa.tests.SupportDocPageTest -->
+    </test> <!-- EdgeTest -->
+    <test name="ChromeTest_Win10" duration-ms="45048" started-at="2021-04-25T22:02:06 IST" finished-at="2021-04-25T22:02:52 IST">
+      <class name="com.qa.tests.HomePageTest">
+        <test-method status="PASS" signature="initialization(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.HomePageTest@43738a82]" name="initialization" is-config="true" duration-ms="20647" started-at="2021-04-25T22:02:06 IST" finished-at="2021-04-25T22:02:27 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[88.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows 10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.HomePageTest@43738a82]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2021-04-25T22:02:27 IST" finished-at="2021-04-25T22:02:27 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.tests.HomePageTest.valdiateStartTestingBtnOnHomePage() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="valdiateStartTestingBtnOnHomePage()[pri:0, instance:com.qa.tests.HomePageTest@43738a82]" name="valdiateStartTestingBtnOnHomePage" duration-ms="1115" started-at="2021-04-25T22:02:27 IST" finished-at="2021-04-25T22:02:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- valdiateStartTestingBtnOnHomePage -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.HomePageTest@43738a82]" name="afterMethod" is-config="true" duration-ms="0" started-at="2021-04-25T22:02:28 IST" finished-at="2021-04-25T22:02:28 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.tests.HomePageTest.valdiateStartTestingBtnOnHomePage() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.HomePageTest@43738a82]" name="tearDown" is-config="true" duration-ms="690" started-at="2021-04-25T22:02:51 IST" finished-at="2021-04-25T22:02:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.tests.HomePageTest -->
+      <class name="com.qa.tests.NewsletterPageTest">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.NewsletterPageTest@1fc2b765]" name="beforeMethod" is-config="true" duration-ms="5" started-at="2021-04-25T22:02:43 IST" finished-at="2021-04-25T22:02:43 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.tests.NewsletterPageTest.validateLetMeReadItFirstLink() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="validateLetMeReadItFirstLink()[pri:0, instance:com.qa.tests.NewsletterPageTest@1fc2b765]" name="validateLetMeReadItFirstLink" duration-ms="8067" started-at="2021-04-25T22:02:43 IST" finished-at="2021-04-25T22:02:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLetMeReadItFirstLink -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.NewsletterPageTest@1fc2b765]" name="afterMethod" is-config="true" duration-ms="1" started-at="2021-04-25T22:02:51 IST" finished-at="2021-04-25T22:02:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.tests.NewsletterPageTest.validateLetMeReadItFirstLink() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.qa.tests.NewsletterPageTest -->
+      <class name="com.qa.tests.SupportDocPageTest">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.SupportDocPageTest@c81cdd1]" name="beforeMethod" is-config="true" duration-ms="2" started-at="2021-04-25T22:02:28 IST" finished-at="2021-04-25T22:02:28 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.tests.SupportDocPageTest.validateIntegrationDocUrl() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="validateIntegrationDocUrl()[pri:0, instance:com.qa.tests.SupportDocPageTest@c81cdd1]" name="validateIntegrationDocUrl" duration-ms="14490" started-at="2021-04-25T22:02:28 IST" finished-at="2021-04-25T22:02:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateIntegrationDocUrl -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.SupportDocPageTest@c81cdd1]" name="afterMethod" is-config="true" duration-ms="1" started-at="2021-04-25T22:02:43 IST" finished-at="2021-04-25T22:02:43 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.tests.SupportDocPageTest.validateIntegrationDocUrl() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.qa.tests.SupportDocPageTest -->
+    </test> <!-- ChromeTest_Win10 -->
+    <test name="FF" duration-ms="38120" started-at="2021-04-25T22:02:52 IST" finished-at="2021-04-25T22:03:30 IST">
+      <class name="com.qa.tests.HomePageTest">
+        <test-method status="PASS" signature="initialization(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.HomePageTest@2de8284b]" name="initialization" is-config="true" duration-ms="19461" started-at="2021-04-25T22:02:52 IST" finished-at="2021-04-25T22:03:11 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[82.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows 7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.HomePageTest@2de8284b]" name="beforeMethod" is-config="true" duration-ms="2" started-at="2021-04-25T22:03:11 IST" finished-at="2021-04-25T22:03:11 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.tests.HomePageTest.valdiateStartTestingBtnOnHomePage() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="valdiateStartTestingBtnOnHomePage()[pri:0, instance:com.qa.tests.HomePageTest@2de8284b]" name="valdiateStartTestingBtnOnHomePage" duration-ms="1221" started-at="2021-04-25T22:03:11 IST" finished-at="2021-04-25T22:03:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- valdiateStartTestingBtnOnHomePage -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.HomePageTest@2de8284b]" name="afterMethod" is-config="true" duration-ms="2" started-at="2021-04-25T22:03:12 IST" finished-at="2021-04-25T22:03:12 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.tests.HomePageTest.valdiateStartTestingBtnOnHomePage() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.HomePageTest@2de8284b]" name="tearDown" is-config="true" duration-ms="799" started-at="2021-04-25T22:03:29 IST" finished-at="2021-04-25T22:03:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.tests.HomePageTest -->
+      <class name="com.qa.tests.NewsletterPageTest">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.NewsletterPageTest@a74868d]" name="beforeMethod" is-config="true" duration-ms="3" started-at="2021-04-25T22:03:22 IST" finished-at="2021-04-25T22:03:22 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.tests.NewsletterPageTest.validateLetMeReadItFirstLink() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="validateLetMeReadItFirstLink()[pri:0, instance:com.qa.tests.NewsletterPageTest@a74868d]" name="validateLetMeReadItFirstLink" duration-ms="6677" started-at="2021-04-25T22:03:22 IST" finished-at="2021-04-25T22:03:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLetMeReadItFirstLink -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.NewsletterPageTest@a74868d]" name="afterMethod" is-config="true" duration-ms="2" started-at="2021-04-25T22:03:29 IST" finished-at="2021-04-25T22:03:29 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.tests.NewsletterPageTest.validateLetMeReadItFirstLink() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.qa.tests.NewsletterPageTest -->
+      <class name="com.qa.tests.SupportDocPageTest">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.SupportDocPageTest@396e2f39]" name="beforeMethod" is-config="true" duration-ms="2" started-at="2021-04-25T22:03:12 IST" finished-at="2021-04-25T22:03:12 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.tests.SupportDocPageTest.validateIntegrationDocUrl() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="validateIntegrationDocUrl()[pri:0, instance:com.qa.tests.SupportDocPageTest@396e2f39]" name="validateIntegrationDocUrl" duration-ms="9934" started-at="2021-04-25T22:03:12 IST" finished-at="2021-04-25T22:03:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateIntegrationDocUrl -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.SupportDocPageTest@396e2f39]" name="afterMethod" is-config="true" duration-ms="1" started-at="2021-04-25T22:03:22 IST" finished-at="2021-04-25T22:03:22 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.tests.SupportDocPageTest.validateIntegrationDocUrl() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.qa.tests.SupportDocPageTest -->
+    </test> <!-- FF -->
+    <test name="ChromeTest_win8" duration-ms="50017" started-at="2021-04-25T22:03:30 IST" finished-at="2021-04-25T22:04:20 IST">
+      <class name="com.qa.tests.HomePageTest">
+        <test-method status="PASS" signature="initialization(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.HomePageTest@782663d3]" name="initialization" is-config="true" duration-ms="26323" started-at="2021-04-25T22:03:30 IST" finished-at="2021-04-25T22:03:56 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[80.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows 8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.HomePageTest@782663d3]" name="beforeMethod" is-config="true" duration-ms="2" started-at="2021-04-25T22:03:56 IST" finished-at="2021-04-25T22:03:56 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.tests.HomePageTest.valdiateStartTestingBtnOnHomePage() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="valdiateStartTestingBtnOnHomePage()[pri:0, instance:com.qa.tests.HomePageTest@782663d3]" name="valdiateStartTestingBtnOnHomePage" duration-ms="1028" started-at="2021-04-25T22:03:56 IST" finished-at="2021-04-25T22:03:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- valdiateStartTestingBtnOnHomePage -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.HomePageTest@782663d3]" name="afterMethod" is-config="true" duration-ms="1" started-at="2021-04-25T22:03:57 IST" finished-at="2021-04-25T22:03:57 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.tests.HomePageTest.valdiateStartTestingBtnOnHomePage() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.HomePageTest@782663d3]" name="tearDown" is-config="true" duration-ms="648" started-at="2021-04-25T22:04:19 IST" finished-at="2021-04-25T22:04:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.tests.HomePageTest -->
+      <class name="com.qa.tests.NewsletterPageTest">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.NewsletterPageTest@64485a47]" name="beforeMethod" is-config="true" duration-ms="3" started-at="2021-04-25T22:04:12 IST" finished-at="2021-04-25T22:04:12 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.tests.NewsletterPageTest.validateLetMeReadItFirstLink() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="validateLetMeReadItFirstLink()[pri:0, instance:com.qa.tests.NewsletterPageTest@64485a47]" name="validateLetMeReadItFirstLink" duration-ms="7018" started-at="2021-04-25T22:04:12 IST" finished-at="2021-04-25T22:04:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLetMeReadItFirstLink -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.NewsletterPageTest@64485a47]" name="afterMethod" is-config="true" duration-ms="1" started-at="2021-04-25T22:04:19 IST" finished-at="2021-04-25T22:04:19 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.tests.NewsletterPageTest.validateLetMeReadItFirstLink() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.qa.tests.NewsletterPageTest -->
+      <class name="com.qa.tests.SupportDocPageTest">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.SupportDocPageTest@1990a65e]" name="beforeMethod" is-config="true" duration-ms="2" started-at="2021-04-25T22:03:57 IST" finished-at="2021-04-25T22:03:57 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.tests.SupportDocPageTest.validateIntegrationDocUrl() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="validateIntegrationDocUrl()[pri:0, instance:com.qa.tests.SupportDocPageTest@1990a65e]" name="validateIntegrationDocUrl" duration-ms="14975" started-at="2021-04-25T22:03:57 IST" finished-at="2021-04-25T22:04:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateIntegrationDocUrl -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.SupportDocPageTest@1990a65e]" name="afterMethod" is-config="true" duration-ms="0" started-at="2021-04-25T22:04:12 IST" finished-at="2021-04-25T22:04:12 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.tests.SupportDocPageTest.validateIntegrationDocUrl() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.qa.tests.SupportDocPageTest -->
+    </test> <!-- ChromeTest_win8 -->
+  </suite> <!-- LambaTestSuite -->
+</testng-results>
