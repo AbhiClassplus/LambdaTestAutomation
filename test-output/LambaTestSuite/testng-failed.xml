@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Failed suite [LambaTestSuite]" parallel="classes">
+  <test thread-count="2" name="Opera(failed)" parallel="classes">
+    <parameter name="browser" value="Opera"/>
+    <parameter name="version" value="73.0"/>
+    <parameter name="platform" value="MacOS Catalina"/>
+    <classes>
+      <class name="com.qa.tests.NewsletterPageTest">
+        <methods>
+          <include name="initialization"/>
+          <include name="beforeMethod"/>
+          <include name="validateLetMeReadItFirstLink"/>
+          <include name="tearDown"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.qa.tests.NewsletterPageTest -->
+      <class name="com.qa.tests.HomePageTest">
+        <methods>
+          <include name="initialization"/>
+          <include name="beforeMethod"/>
+          <include name="valdiateStartTestingBtnOnHomePage"/>
+          <include name="afterMethod"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.qa.tests.HomePageTest -->
+      <class name="com.qa.tests.SupportDocPageTest">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="initialization"/>
+          <include name="validateIntegrationDocUrl"/>
+          <include name="beforeMethod"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.qa.tests.SupportDocPageTest -->
+    </classes>
+  </test> <!-- Opera(failed) -->
+</suite> <!-- Failed suite [LambaTestSuite] -->
