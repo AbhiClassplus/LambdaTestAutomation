@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite thread-count="2" name="LambaTestSuite" parallel="classes">
+
+	<test name="EdgeTest_win10" preserve-order="true" group-by-instances="true">
+		<parameter name="browser" value="MicrosoftEdge" />
+		<parameter name="version" value="87.0" />
+		<parameter name="platform" value="Windows 10" />
+		<classes>
+			<class name="com.qa.tests.HomePageTest"></class>
+			<class name="com.qa.tests.SupportDocPageTest"></class>
+			<class name="com.qa.tests.NewsletterPageTest"></class>
+		</classes>
+	</test>
+
+	<test name="ChromeTest_Win10" preserve-order="true" group-by-instances="true">
+		<parameter name="browser" value="Chrome" />
+		<parameter name="version" value="88.0" />
+		<parameter name="platform" value="Windows 10" />
+		<classes>
+			<class name="com.qa.tests.HomePageTest"></class>
+			<class name="com.qa.tests.SupportDocPageTest"></class>
+			<class name="com.qa.tests.NewsletterPageTest"></class>
+		</classes>
+	</test>
+	
+	<test name="FF_win7" preserve-order="true" group-by-instances="true">
+		<parameter name="browser" value="Firefox" />
+		<parameter name="version" value="82.0" />
+		<parameter name="platform" value="Windows 7" />
+		<classes>
+			<class name="com.qa.tests.HomePageTest"></class>
+			<class name="com.qa.tests.SupportDocPageTest"></class>
+			<class name="com.qa.tests.NewsletterPageTest"></class>
+		</classes>
+	</test>
+
+	<test name="ChromeTest_win8" preserve-order="true" group-by-instances="true">
+		<parameter name="browser" value="Chrome" />
+		<parameter name="version" value="80.0" />
+		<parameter name="platform" value="Windows 8" />
+		<classes>
+			<class name="com.qa.tests.HomePageTest"></class>
+			<class name="com.qa.tests.SupportDocPageTest"></class>
+			<class name="com.qa.tests.NewsletterPageTest"></class>
+		</classes>
+	</test>
+	
+
+
+</suite> <!-- Suite -->
